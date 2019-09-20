@@ -1,0 +1,21 @@
+<!-- Launch file for Ground Filter -->
+<launch>
+
+        <arg name="point_topic" default="/points_raw" />
+        <arg name="remove_floor" default="true" />
+        <arg name="sensor_model" default="64" />
+        <arg name="sensor_height" default="2.4" />
+        <arg name="max_slope" default="10.0" />
+        <arg name="points_distance" default="0.45" />
+
+        <!-- rosrun lidar_tracker ground_filter -->
+        <node pkg="points_preprocessor" type="ground_filter" name="ground_filter">
+                <param name="point_topic" value="$(arg point_topic)" />
+                <param name="remove_floor" value="$(arg remove_floor)" />
+                <param name="sensor_model" value="$(arg sensor_model)" />
+                <param name="sensor_height" value="$(arg sensor_height)" />
+                <param name="max_slope" value="$(arg max_slope)" />
+                <param name="points_distance" value="$(arg points_distance)" />
+        </node>
+
+</launch>
