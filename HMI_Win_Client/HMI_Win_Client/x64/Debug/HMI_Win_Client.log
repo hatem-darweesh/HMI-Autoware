@@ -1,0 +1,6 @@
+﻿  HMI_Win_ClientDlg.cpp
+c:\users\hatem\onedrive\documents\visual studio 2015\projects\hmi_win_client\hmi_win_client\commtoauto.h(125): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\hatem\onedrive\documents\visual studio 2015\projects\hmi_win_client\hmi_win_client\commtoauto.h(138): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\hatem\onedrive\documents\visual studio 2015\projects\hmi_win_client\hmi_win_client\commtoauto.h(144): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  HMI_Win_Client.vcxproj -> C:\Users\hatem\OneDrive\Documents\Visual Studio 2015\Projects\HMI_Win_Client\x64\Debug\HMI_Win_Client.exe
+  HMI_Win_Client.vcxproj -> C:\Users\hatem\OneDrive\Documents\Visual Studio 2015\Projects\HMI_Win_Client\x64\Debug\HMI_Win_Client.pdb (Partial PDB)
